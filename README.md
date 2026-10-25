@@ -125,11 +125,9 @@ Pre-configured accounts for instant grading and evaluation:
 | **Pending Dealer** | `shree.enterprises.ro@outlook.com`| `DealerPass@2026`| Shree Aqua Enterprises (GSTIN: `24AAECS9876Q1Z2`), wholesale prices locked |
 | **Retail Customer**| `ananya.iyer@gmail.com` | `CustomerPass@2026`| Customer retail catalog pricing, referral code `ANANYA77`, ₹500 wallet balance |
 
-> **Pro-Tip for Evaluators:** In the mobile app under the **Account** tab, use the **"🛠️ Evaluator Role Switcher"** to instantly switch between Customer, Approved Dealer, and Pending Dealer modes in one tap without needing to re-login!
-
 ---
 
-## 5. Quick Start & Local Execution
+## 5. Start & Local Execution
 
 ### 5.1 Prerequisites
 - Node.js v18+ (tested on Node v22)
@@ -206,22 +204,3 @@ The catalog in `firebase/seeds/products.json` features complete water purificati
 - **Referral System:** Generates unique user referral codes, awards ₹250 wallet credits on registration, and deducts discounts on checkout with abuse prevention.
 
 ---
-
-## 7. Submission Verification Checklist
-
-- [x] All 52 products authored with realistic specs, prices, images, and categories.
-- [x] Customer registration, login, catalog search, filters, details, persistent cart, and checkout implemented.
-- [x] Dealer application workflow, admin approval gate, and wholesale pricing verified.
-- [x] Responsive Next.js web Admin panel built with Dashboard, Orders, Dealers, Products, Services, and Users.
-- [x] Cloud Firestore security rules guarding customer data, dealer approvals, and order records.
-- [x] Free OpenStreetMap Nominatim geocoding integrated without paid Google APIs.
-- [x] Razorpay Test Mode with HMAC verification and success/failure testing.
-- [x] AI Instagram daily automation workflow (n8n JSON, Google Sheets schema, dry-run test).
-- [x] Bonus WAHA WhatsApp Status automation workflow documented.
-- [x] Bonus Light/Dark mode, Image Lightbox Zoom, and Referral credits implemented.
-- [x] Comprehensive documentation in `docs/` (`REQUIREMENTS.md`, `IMPLEMENTATION_PLAN.md`, `PROGRESS.md`, `TESTING.md`, `DEPLOYMENT.md`, `DEMO_SCRIPT.md`).
-- [x] Zero hardcoded secrets; `.env.example` templates provided.
-=======
-# califnco-round-1
-Califnco Round 1 — E-commerce, Android app and AI automation
->>>>>>> e0b4ac96b01f2a810f4e6ee42d5cdda3ba7460b7
