@@ -1,7 +1,6 @@
 # Califnco Water Purifier E-Commerce Platform & Ecosystem
 
 > **Califnco Round 1 Software Developer Technical Assignment**  
-> **Deadline:** 25 October 2026, 11:59 PM IST  
 > **Role Architectures:** Customer, Dealer, Admin, AI Automation Engineer  
 
 ---
@@ -222,3 +221,7 @@ The catalog in `firebase/seeds/products.json` features complete water purificati
 - [x] Bonus Light/Dark mode, Image Lightbox Zoom, and Referral credits implemented.
 - [x] Comprehensive documentation in `docs/` (`REQUIREMENTS.md`, `IMPLEMENTATION_PLAN.md`, `PROGRESS.md`, `TESTING.md`, `DEPLOYMENT.md`, `DEMO_SCRIPT.md`).
 - [x] Zero hardcoded secrets; `.env.example` templates provided.
+=======
+# califnco-round-1
+Califnco Round 1 — E-commerce, Android app and AI automation
+>>>>>>> e0b4ac96b01f2a810f4e6ee42d5cdda3ba7460b7
