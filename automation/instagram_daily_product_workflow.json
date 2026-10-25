@@ -1,0 +1,318 @@
+{
+  "name": "Califnco - Daily Instagram Product Publisher",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 24,
+              "triggerAtHour": 10,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger-1",
+      "name": "Daily at 10 AM IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "sheetId": "={{ $env.GOOGLE_SHEETS_SPREADSHEET_ID }}",
+        "range": "Products_Catalog!A:K",
+        "options": {
+          "filter": {
+            "conditions": [
+              {
+                "field": "Status",
+                "operation": "equal",
+                "value": "PENDING"
+              }
+            ]
+          },
+          "limit": 1
+        }
+      },
+      "id": "google-sheets-read-1",
+      "name": "Read Next Pending Product",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.Product_ID }}",
+              "operation": "isNotEmpty"
+            }
+          ]
+        }
+      },
+      "id": "check-eligible-product",
+      "name": "Eligible Product Exists?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $env.OPENAI_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are a professional social media manager for Califnco Water Purifiers. Write a compelling, high-converting Instagram caption for the given water purifier product.\\n\\nCRITICAL COMPLIANCE RULES:\\n1. Feature the exact product name prominently.\\n2. Incorporate the retail price accurately in INR (₹).\\n3. Use ONLY the verified facts and key features provided. DO NOT fabricate, invent, or embellish warranties, medical benefits, certifications (like NSF, ISI, or ISO unless in verified facts), or non-existent discount percentages.\\n4. Use clean paragraphs, friendly tone, tasteful emojis, and 5-8 relevant hashtags like #WaterPurifier #CleanWater #Califnco #PureWater #HealthyLiving.\\n5. End with a clean Call To Action (e.g., 'Available on Califnco Android App. Order today with certified doorstep installation.').\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Product Name: {{ $json.Product_Name }}\\nCategory: {{ $json.Category }}\\nRetail Price: ₹{{ $json.Retail_Price_INR }}\\nKey Features: {{ $json.Key_Features }}\\nVerified Facts: {{ $json.Verified_Facts }}\"\n    }\n  ],\n  \"temperature\": 0.6\n}"
+      },
+      "id": "generate-ai-caption",
+      "name": "Generate Fact-Verified Caption",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/images/generations",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{ $env.OPENAI_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"dall-e-3\",\n  \"prompt\": \"Commercial studio product photography of a modern {{ $('Read Next Pending Product').item.json.Product_Name }}, sleek water purifier equipment, clean minimalist white marble kitchen countertop, soft cinematic studio lighting, crystal-clear water drops, ultra-realistic 8k resolution commercial aesthetic, crisp depth of field.\",\n  \"n\": 1,\n  \"size\": \"1024x1024\",\n  \"quality\": \"standard\"\n}"
+      },
+      "id": "generate-ai-image",
+      "name": "Generate Studio Product Image",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1120, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v19.0/{{ $env.INSTAGRAM_BUSINESS_ACCOUNT_ID }}/media",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "image_url",
+              "value": "={{ $json.data[0].url }}"
+            },
+            {
+              "name": "caption",
+              "value": "={{ $('Generate Fact-Verified Caption').item.json.choices[0].message.content }}"
+            },
+            {
+              "name": "access_token",
+              "value": "={{ $env.META_PAGE_ACCESS_TOKEN }}"
+            }
+          ]
+        }
+      },
+      "id": "create-instagram-container",
+      "name": "Create IG Media Container",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1340, 200]
+    },
+    {
+      "parameters": {
+        "amount": 5,
+        "unit": "seconds"
+      },
+      "id": "wait-for-processing",
+      "name": "Wait for Media Processing",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [1560, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v19.0/{{ $env.INSTAGRAM_BUSINESS_ACCOUNT_ID }}/media_publish",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "creation_id",
+              "value": "={{ $('Create IG Media Container').item.json.id }}"
+            },
+            {
+              "name": "access_token",
+              "value": "={{ $env.META_PAGE_ACCESS_TOKEN }}"
+            }
+          ]
+        }
+      },
+      "id": "publish-instagram-post",
+      "name": "Publish to Instagram Feed",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1780, 200]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "sheetId": "={{ $env.GOOGLE_SHEETS_SPREADSHEET_ID }}",
+        "range": "Products_Catalog!A:K",
+        "keyColumn": "Product_ID",
+        "keyValue": "={{ $('Read Next Pending Product').item.json.Product_ID }}",
+        "fields": {
+          "Status": "PUBLISHED",
+          "Last_Posted_Date": "={{ $now.toISO() }}",
+          "Instagram_Post_ID": "={{ $json.id }}",
+          "Error_Log": ""
+        }
+      },
+      "id": "update-google-sheets-success",
+      "name": "Record Publication Success",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [2000, 200]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "sheetId": "={{ $env.GOOGLE_SHEETS_SPREADSHEET_ID }}",
+        "range": "Products_Catalog!A:K",
+        "keyColumn": "Product_ID",
+        "keyValue": "={{ $('Read Next Pending Product').item.json.Product_ID }}",
+        "fields": {
+          "Status": "FAILED",
+          "Error_Log": "={{ $execution.error.message || 'Execution failed during container creation or publication' }}"
+        }
+      },
+      "id": "record-failure-state",
+      "name": "Record Failure State in Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [1560, 420]
+    }
+  ],
+  "connections": {
+    "Daily at 10 AM IST": {
+      "main": [
+        [
+          {
+            "node": "Read Next Pending Product",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Next Pending Product": {
+      "main": [
+        [
+          {
+            "node": "Eligible Product Exists?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Eligible Product Exists?": {
+      "main": [
+        [
+          {
+            "node": "Generate Fact-Verified Caption",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Fact-Verified Caption": {
+      "main": [
+        [
+          {
+            "node": "Generate Studio Product Image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Studio Product Image": {
+      "main": [
+        [
+          {
+            "node": "Create IG Media Container",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create IG Media Container": {
+      "main": [
+        [
+          {
+            "node": "Wait for Media Processing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Media Processing": {
+      "main": [
+        [
+          {
+            "node": "Publish to Instagram Feed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Publish to Instagram Feed": {
+      "main": [
+        [
+          {
+            "node": "Record Publication Success",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  }
+}

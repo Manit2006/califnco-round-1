@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Aquaflow Copper Prime RO+UV+UF+TDS Controller 12L",
+    "slug": "aquaflow-copper-prime-ro-uv-uf-tds-12l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "Aquaflow",
+    "description": "Multi-stage advanced domestic water purifier featuring active copper technology, RO membrane, UV sterilization, UF filtration, and an intelligent TDS controller suitable for water up to 2000 ppm.",
+    "retailPrice": 14999,
+    "wholesalePrice": 9750,
+    "minOrderQuantity": 1,
+    "stockQuantity": 45,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Purification Capacity": "15 Liters/Hour",
+      "Storage Tank": "12 Liters Food Grade ABS",
+      "Purification Technology": "RO + UV + UF + Active Copper + TDS Controller",
+      "Max Input TDS": "Up to 2000 ppm",
+      "Power Consumption": "60 Watts",
+      "Mounting Type": "Wall Mounted / Countertop"
+    },
+    "rating": 4.8,
+    "reviewCount": 142,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-002",
+    "name": "HydroShield Alkaline Pro Mineral RO Water Purifier 10L",
+    "slug": "hydroshield-alkaline-pro-mineral-ro-10l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "HydroShield",
+    "description": "Alkaline water purifier that balances pH levels between 7.5 to 8.5 while replenishing essential minerals like Calcium, Magnesium, and Potassium with in-tank UV LED preservation.",
+    "retailPrice": 13499,
+    "wholesalePrice": 8800,
+    "minOrderQuantity": 1,
+    "stockQuantity": 38,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Purification Capacity": "12 Liters/Hour",
+      "Storage Tank": "10 Liters Detachable Tank",
+      "pH Range": "7.5 - 8.5 Alkaline",
+      "Filtration Stages": "7 Stages Mineralizing RO",
+      "Max Input TDS": "1800 ppm"
+    },
+    "rating": 4.7,
+    "reviewCount": 98,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-003",
+    "name": "PureStream Smart IoT Under-Sink RO System 15L",
+    "slug": "purestream-smart-iot-under-sink-ro-15l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "PureStream",
+    "description": "Premium under-sink space-saving RO purifier with smart smartphone connectivity, filter-life monitoring, digital faucet with real-time TDS display, and pressurized stainless steel hydro-pneumatic storage tank.",
+    "retailPrice": 21999,
+    "wholesalePrice": 14500,
+    "minOrderQuantity": 1,
+    "stockQuantity": 22,
+    "thumbnail": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Installation Style": "Under-Counter / Under-Sink",
+      "Purification Capacity": "18 Liters/Hour",
+      "Tank Volume": "15 Liters Stainless Steel Tank",
+      "Connectivity": "Wi-Fi + Bluetooth App Alert",
+      "Faucet": "Solid Brass Chrome Gooseneck with LED Ring"
+    },
+    "rating": 4.9,
+    "reviewCount": 64,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-004",
+    "name": "CrystalCompact Wall-Mount RO+UV 8L",
+    "slug": "crystalcompact-wall-mount-ro-uv-8l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "CrystalClear",
+    "description": "Slim, space-efficient 8-liter water purifier engineered for compact urban kitchens. Delivers pure drinking water through an ultra-dense sediment pre-filter and high-performance RO membrane.",
+    "retailPrice": 9999,
+    "wholesalePrice": 6700,
+    "minOrderQuantity": 1,
+    "stockQuantity": 50,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Capacity": "12 L/hr",
+      "Tank": "8 Liters Food Grade",
+      "Dimensions": "360 x 240 x 480 mm",
+      "Weight": "7.5 kg"
+    },
+    "rating": 4.5,
+    "reviewCount": 115,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-005",
+    "name": "BioHealth Gravity-Based Non-Electric UF Purifier 18L",
+    "slug": "biohealth-gravity-non-electric-uf-purifier-18l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "BioHealth",
+    "description": "Zero-electricity gravity water purifier with 0.01-micron hollow fiber ultrafiltration membrane. Perfect for low TDS municipal tap water, rural setups, and emergency resilience.",
+    "retailPrice": 3499,
+    "wholesalePrice": 2250,
+    "minOrderQuantity": 2,
+    "stockQuantity": 80,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Type": "Non-Electric Gravity Based",
+      "Membrane Pore Size": "0.01 Micron UF",
+      "Total Storage": "18 Liters (9L Raw + 9L Pure)",
+      "Cartridge Life": "4000 Liters"
+    },
+    "rating": 4.4,
+    "reviewCount": 78,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-006",
+    "name": "HydroMax 50 LPH Commercial RO Plant (Twin Membrane)",
+    "slug": "hydromax-50-lph-commercial-ro-plant",
+    "category": "purifier_commercial",
+    "categoryLabel": "Commercial RO Systems",
+    "brand": "HydroMax",
+    "description": "Commercial grade 50 Liters-Per-Hour RO water purification skid with dual 300 GPD membranes, stainless steel frame, raw and pure water pressure gauges, and low pressure automatic trip.",
+    "retailPrice": 38999,
+    "wholesalePrice": 27500,
+    "minOrderQuantity": 1,
+    "stockQuantity": 15,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Flow Rate": "50 Liters / Hour",
+      "Membranes": "2 x 300 GPD High Recovery",
+      "Pumps": "2 x Heavy Duty 36V 300 GPD Pumps",
+      "Frame Material": "SS 304 Stainless Steel",
+      "Recommended For": "Offices, Cafes, Clinics, Hostels (50-100 People)"
+    },
+    "rating": 4.9,
+    "reviewCount": 36,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-007",
+    "name": "Industrial Skid 100 LPH Fully Automatic RO Plant",
+    "slug": "industrial-skid-100-lph-automatic-ro-plant",
+    "category": "purifier_commercial",
+    "categoryLabel": "Commercial RO Systems",
+    "brand": "HydroMax",
+    "description": "High output 100 LPH RO water treatment unit with vertical multistage booster pump, digital control panel with auto-flushing, dual rotameters for permeate and reject monitoring.",
+    "retailPrice": 64999,
+    "wholesalePrice": 46000,
+    "minOrderQuantity": 1,
+    "stockQuantity": 8,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Capacity": "100 Liters / Hour",
+      "Membrane Housing": "FRP Pressure Vessels 4040",
+      "Automation": "Microprocessor Based Control Panel",
+      "Recovery Rate": "Up to 50%",
+      "Power": "Single Phase 220V"
+    },
+    "rating": 4.8,
+    "reviewCount": 19,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-008",
+    "name": "CafePure 25 LPH Under-Counter Commercial RO",
+    "slug": "cafepure-25-lph-under-counter-commercial-ro",
+    "category": "purifier_commercial",
+    "categoryLabel": "Commercial RO Systems",
+    "brand": "CafePure",
+    "description": "Compact high-flow 25 LPH purification system tailored for espresso bars, specialty tea brew stations, and commercial ice makers, maintaining optimum TDS (75-120 ppm) for rich flavor extraction.",
+    "retailPrice": 26999,
+    "wholesalePrice": 18900,
+    "minOrderQuantity": 1,
+    "stockQuantity": 12,
+    "thumbnail": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Capacity": "25 LPH Direct Flow",
+      "Remineralization": "Custom Magnesium-Rich Mineral Bed",
+      "Form Factor": "Sub-Counter Cabinet Mount",
+      "Operating Pressure": "70 - 100 PSI"
+    },
+    "rating": 4.7,
+    "reviewCount": 27,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-009",
+    "name": "ArcticFlow Floor-Standing Hot & Cold RO Dispenser 14L",
+    "slug": "arcticflow-floor-standing-hot-cold-ro-dispenser-14l",
+    "category": "dispensers",
+    "categoryLabel": "Water Dispensers",
+    "brand": "ArcticFlow",
+    "description": "Floor-standing hot, cold, and ambient water purifier dispenser with internal 4-stage RO system, high-efficiency compressor refrigeration, child-lock hot faucet, and stainless steel hot/cold reservoirs.",
+    "retailPrice": 24999,
+    "wholesalePrice": 17200,
+    "minOrderQuantity": 1,
+    "stockQuantity": 18,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Total Storage": "14 Liters (Cold: 4L, Hot: 2L, Normal: 8L)",
+      "Cooling Power": "100W Compressor Cooling",
+      "Heating Power": "500W Band Heater (85°C - 95°C)",
+      "Safety": "Double Thermal Cutoff & Hot Water Safety Lock"
+    },
+    "rating": 4.8,
+    "reviewCount": 53,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-010",
+    "name": "ThermoTouch Tabletop Hot & Normal Water Dispenser 6L",
+    "slug": "thermotouch-tabletop-hot-normal-water-dispenser-6l",
+    "category": "dispensers",
+    "categoryLabel": "Water Dispensers",
+    "brand": "ThermoTouch",
+    "description": "Sleek tabletop hot and room-temperature water dispenser featuring instant heating within 3 seconds, multi-temperature touch presets (45°C, 85°C, 100°C), and connection to external RO feed.",
+    "retailPrice": 11499,
+    "wholesalePrice": 7900,
+    "minOrderQuantity": 1,
+    "stockQuantity": 25,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Heating Rate": "Instant Flow Heater 2000W",
+      "Preset Temperatures": "Room, 45°C Baby Milk, 85°C Tea, 100°C Boil",
+      "Child Safety Lock": "Yes",
+      "Reservoir": "6 Liters Food Grade"
+    },
+    "rating": 4.6,
+    "reviewCount": 41,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-011",
+    "name": "Kemflo 75 GPD High-Pressure RO Booster Pump (24V DC)",
+    "slug": "kemflo-75-gpd-booster-pump-24v-dc",
+    "category": "booster_pumps",
+    "categoryLabel": "Booster & Diaphragm Pumps",
+    "brand": "Kemflo",
+    "description": "Original Kemflo 75 GPD diaphragm booster pump engineered for consistent pressure delivery up to 130 PSI to domestic RO membranes, ensuring optimal water recovery and minimal reject waste.",
+    "retailPrice": 1850,
+    "wholesalePrice": 1150,
+    "minOrderQuantity": 2,
+    "stockQuantity": 120,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Operating Voltage": "24V DC",
+      "Working Flow": "1.2 LPM at 70 PSI",
+      "Max Pressure": "130 PSI",
+      "Motor Type": "100% Copper Winding DC Diaphragm",
+      "Ports": "3/8\" Female Threaded NPT"
+    },
+    "rating": 4.7,
+    "reviewCount": 210,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-012",
+    "name": "BNQS 100 GPD Heavy-Duty RO Booster Pump (36V DC)",
+    "slug": "bnqs-100-gpd-heavy-duty-ro-booster-pump-36v",
+    "category": "booster_pumps",
+    "categoryLabel": "Booster & Diaphragm Pumps",
+    "brand": "BNQS",
+    "description": "High-torque 36V booster pump rated for 100 GPD and 150 GPD domestic and semi-commercial reverse osmosis systems. Features vibration-dampening rubber mounts and low-noise operational profile.",
+    "retailPrice": 2250,
+    "wholesalePrice": 1420,
+    "minOrderQuantity": 2,
+    "stockQuantity": 95,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Operating Voltage": "36V DC, 1.6A",
+      "Rated Capacity": "100 GPD - 150 GPD",
+      "Max Pressure Output": "145 PSI",
+      "Duty Cycle": "Continuous"
+    },
+    "rating": 4.6,
+    "reviewCount": 165,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-013",
+    "name": "E-Chen 300 GPD Commercial Diaphragm RO Pump (36V)",
+    "slug": "e-chen-300-gpd-commercial-diaphragm-pump-36v",
+    "category": "booster_pumps",
+    "categoryLabel": "Booster & Diaphragm Pumps",
+    "brand": "E-Chen",
+    "description": "Industrial grade 300 GPD booster pump designed for 50 LPH commercial water plants. High displacement volume with food-grade EPDM diaphragm and heavy duty bearings.",
+    "retailPrice": 3950,
+    "wholesalePrice": 2650,
+    "minOrderQuantity": 1,
+    "stockQuantity": 40,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Capacity": "300 GPD High Output",
+      "Voltage": "36V DC, 3.0A",
+      "Max Open Flow": "3.5 LPM",
+      "Suction Lift": "Self-priming up to 2 meters"
+    },
+    "rating": 4.8,
+    "reviewCount": 49,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-014",
+    "name": "Universal 24V / 2.5A SMPS Power Supply Adapter for RO",
+    "slug": "universal-24v-2-5a-smps-power-supply-adapter",
+    "category": "booster_pumps",
+    "categoryLabel": "Booster & Diaphragm Pumps",
+    "brand": "PowerPulse",
+    "description": "Switch Mode Power Supply (SMPS) with surge protection, short circuit safety, and wide input range (140V - 280V AC) providing smooth 24V DC to pump and solenoid valve.",
+    "retailPrice": 650,
+    "wholesalePrice": 380,
+    "minOrderQuantity": 5,
+    "stockQuantity": 200,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Input AC": "140V - 300V AC, 50/60 Hz",
+      "Output DC": "24V DC, 2.5 Amps",
+      "Protection": "Overload, Thermal, and High Voltage Cut-off",
+      "Enclosure": "Fire-Retardant ABS Plastic"
+    },
+    "rating": 4.6,
+    "reviewCount": 180,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-015",
+    "name": "Filmtec Dow 75 GPD Thin Film Composite RO Membrane",
+    "slug": "filmtec-dow-75-gpd-ro-membrane",
+    "category": "ro_membranes",
+    "categoryLabel": "RO Membranes",
+    "brand": "Filmtec",
+    "description": "Industry benchmark Dow Filmtec 75 GPD residential reverse osmosis membrane element. Rejects up to 98% of dissolved solids, heavy metals, arsenic, fluoride, and micro-plastics.",
+    "retailPrice": 1950,
+    "wholesalePrice": 1280,
+    "minOrderQuantity": 3,
+    "stockQuantity": 160,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Permeate Flow": "75 GPD (285 Liters/Day)",
+      "Salt Rejection Rate": "98.0% Stabilized",
+      "Membrane Material": "Polyamide Thin-Film Composite",
+      "Standard Fit": "Fits all standard 1812 RO membrane housings"
+    },
+    "rating": 4.9,
+    "reviewCount": 320,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-016",
+    "name": "Vontron 100 GPD High-Recovery RO Membrane 1812",
+    "slug": "vontron-100-gpd-high-recovery-ro-membrane",
+    "category": "ro_membranes",
+    "categoryLabel": "RO Membranes",
+    "brand": "Vontron",
+    "description": "Authentic Vontron ULP1812-100 dry-type reverse osmosis membrane with ultra-low working pressure requirement, making it ideal for low-pressure feed areas without sacrificing high salt rejection.",
+    "retailPrice": 1750,
+    "wholesalePrice": 1050,
+    "minOrderQuantity": 3,
+    "stockQuantity": 140,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Capacity": "100 GPD (380 Liters/Day)",
+      "Testing Pressure": "60 PSI Low Pressure",
+      "Rejection": "97.5%",
+      "Form": "Dry Sheet Sealed with Anti-Counterfeit Hologram"
+    },
+    "rating": 4.7,
+    "reviewCount": 195,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-017",
+    "name": "Toray 300 GPD Commercial High-Flow RO Membrane",
+    "slug": "toray-300-gpd-commercial-high-flow-ro-membrane",
+    "category": "ro_membranes",
+    "categoryLabel": "RO Membranes",
+    "brand": "Toray",
+    "description": "Japanese technology 300 GPD membrane element for 25 LPH to 50 LPH commercial purifiers. Superior resistance to scaling and bio-fouling in high TDS environments.",
+    "retailPrice": 3200,
+    "wholesalePrice": 2150,
+    "minOrderQuantity": 2,
+    "stockQuantity": 50,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Output": "300 GPD (1140 L/Day)",
+      "Size": "3012 Standard Membrane Housing",
+      "Rejection Rate": "97.0%",
+      "Max Operating Temp": "45°C"
+    },
+    "rating": 4.8,
+    "reviewCount": 62,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-018",
+    "name": "CSM 80 GPD Domestic RO Membrane Element",
+    "slug": "csm-80-gpd-domestic-ro-membrane",
+    "category": "ro_membranes",
+    "categoryLabel": "RO Membranes",
+    "brand": "CSM",
+    "description": "Korean manufactured 80 GPD polyamide spiral-wound membrane for domestic drinking systems. Outstanding durability against harsh municipal chlorine traces.",
+    "retailPrice": 1600,
+    "wholesalePrice": 990,
+    "minOrderQuantity": 3,
+    "stockQuantity": 85,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Flow": "80 GPD",
+      "Rejection": "98%",
+      "Feed Water pH": "3.0 - 10.0",
+      "Chlorine Tolerance": "< 0.1 ppm"
+    },
+    "rating": 4.6,
+    "reviewCount": 110,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-019",
+    "name": "5 Micron Spun Polypropylene Sediment Pre-Filter 10\" (Pack of 4)",
+    "slug": "5-micron-spun-polypropylene-sediment-filter-10-inch-pack-4",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "PureFiber",
+    "description": "Thermal-bonded 100% pure food-grade polypropylene micro-fiber filter candle. Traps sand, silt, rust, scale, and suspended particulate matter before water enters the primary purifier unit.",
+    "retailPrice": 599,
+    "wholesalePrice": 280,
+    "minOrderQuantity": 5,
+    "stockQuantity": 350,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Filtration Rating": "5 Micron Nominal",
+      "Length": "10 Inch Standard (9.875\")",
+      "Weight": "120 grams per candle",
+      "Quantity": "4 Candles Per Pack",
+      "Service Life": "3 to 6 Months depending on raw water turbidity"
+    },
+    "rating": 4.8,
+    "reviewCount": 420,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-020",
+    "name": "100% Coconut Shell Granular Activated Carbon (GAC) Filter 10\"",
+    "slug": "coconut-shell-granular-activated-carbon-gac-filter-10-inch",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "CarboPure",
+    "description": "High iodine-value (1100+ IV) virgin coconut shell activated carbon in an inline capsule. Adsorbs harmful chlorine, volatile organic chemicals (VOCs), pesticides, foul odors, and discoloration.",
+    "retailPrice": 450,
+    "wholesalePrice": 220,
+    "minOrderQuantity": 5,
+    "stockQuantity": 280,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Iodine Value": "1100 mg/g",
+      "Carbon Source": "100% Virgin Coconut Shell",
+      "Ports": "1/4\" Push Fit or Threaded",
+      "Capacity": "6000 Liters"
+    },
+    "rating": 4.7,
+    "reviewCount": 190,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-021",
+    "name": "Extruded Carbon Block (CTO) Solid Filter 10\"",
+    "slug": "extruded-carbon-block-cto-solid-filter-10-inch",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "CarboPure",
+    "description": "Solid extruded carbon block filter with integrated 5-micron outer netting. Provides dual-action sediment filtration and chemical dechlorination without carbon fine release.",
+    "retailPrice": 480,
+    "wholesalePrice": 240,
+    "minOrderQuantity": 5,
+    "stockQuantity": 240,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Dimensions": "10\" x 2.5\"",
+      "Micron Rating": "5 Micron",
+      "Chlorine Reduction": "> 95% at 2 LPM",
+      "Max Operating Temp": "52°C"
+    },
+    "rating": 4.6,
+    "reviewCount": 145,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-022",
+    "name": "Antibacterial Silver-Impregnated Post Carbon Inline Filter",
+    "slug": "antibacterial-silver-post-carbon-inline-filter",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "SilverShield",
+    "description": "Final stage polishing cartridge with silver ions baked into activated carbon. Polishes the taste of purified water while preventing bacterial regrowth in the storage reservoir.",
+    "retailPrice": 520,
+    "wholesalePrice": 270,
+    "minOrderQuantity": 5,
+    "stockQuantity": 190,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Technology": "Silver Nano Impregnated Activated Carbon",
+      "Connection": "1/4\" Push-fit Inlet & Outlet",
+      "Taste Enhancement": "Crisp sweet mountain water profile",
+      "Life": "12 Months or 6000 Liters"
+    },
+    "rating": 4.8,
+    "reviewCount": 178,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-023",
+    "name": "Hollow Fiber Ultrafiltration (UF) Membrane Inline Cartridge",
+    "slug": "hollow-fiber-ultrafiltration-uf-membrane-inline-cartridge",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "UltraClear",
+    "description": "0.01-micron hollow-fiber capillary membrane inline capsule. Physically blocks bacteria, cysts, and macromolecular turbidity while allowing healthy dissolved ionic minerals to pass freely.",
+    "retailPrice": 699,
+    "wholesalePrice": 390,
+    "minOrderQuantity": 4,
+    "stockQuantity": 150,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Pore Size": "0.01 Micron Absolute",
+      "Fiber Material": "Hydrophilic PVDF (Polyvinylidene Fluoride)",
+      "Operating Pressure": "15 - 45 PSI",
+      "Life Span": "Up to 18 Months"
+    },
+    "rating": 4.7,
+    "reviewCount": 94,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-024",
+    "name": "Bio+ Alkaline Mineralizer Post-Cartridge (pH 8.5+)",
+    "slug": "bio-plus-alkaline-mineralizer-post-cartridge",
+    "category": "minerals_uv",
+    "categoryLabel": "Minerals & UV Sterilization",
+    "brand": "Bio+",
+    "description": "Natural bio-ceramic ball cartridge with tourmaline, maifanite, and alkaline stones. Restores essential Calcium, Magnesium, Sodium, and Potassium, elevates negative ORP, and alkalizes acidic RO permeate.",
+    "retailPrice": 899,
+    "wholesalePrice": 480,
+    "minOrderQuantity": 4,
+    "stockQuantity": 210,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "pH Elevation": "+1.5 to +2.5 pH units (Typically 8.0 - 9.0)",
+      "ORP Reduction": "-100 mV to -250 mV",
+      "Mineral Balls": "Tourmaline, Far-Infrared, Maifan, ORP Balls",
+      "Fittings": "1/4\" Quick Connect Ready"
+    },
+    "rating": 4.9,
+    "reviewCount": 260,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-025",
+    "name": "PureCopper Active Infusion Inline Cartridge",
+    "slug": "purecopper-active-infusion-inline-cartridge",
+    "category": "minerals_uv",
+    "categoryLabel": "Minerals & UV Sterilization",
+    "brand": "PureCopper",
+    "description": "Ayurveda-inspired active copper dosing cartridge containing 99.9% pure antimicrobial copper pellets that infuse optimum therapeutic copper ions into pure RO water in accordance with WHO guidelines.",
+    "retailPrice": 799,
+    "wholesalePrice": 440,
+    "minOrderQuantity": 4,
+    "stockQuantity": 175,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Active Ingredient": "99.9% Electrolytic Grade Copper Particles",
+      "Infusion Dosage": "0.05 to 0.1 mg/L Copper Ions",
+      "Health Benefits": "Digestive health, immunity, antioxidant action",
+      "Capacity": "4000 Liters"
+    },
+    "rating": 4.8,
+    "reviewCount": 182,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-026",
+    "name": "Philips 11W 4-Pin UV Sterilization Lamp",
+    "slug": "philips-11w-4-pin-uv-sterilization-lamp",
+    "category": "minerals_uv",
+    "categoryLabel": "Minerals & UV Sterilization",
+    "brand": "Philips",
+    "description": "Original Philips TUV 11W 4-pin germicidal ultraviolet lamp emitting 253.7 nm UV-C waveband. Inactivates 99.99% of bacteria, viruses, and microbial pathogens in rapid water streams.",
+    "retailPrice": 499,
+    "wholesalePrice": 290,
+    "minOrderQuantity": 5,
+    "stockQuantity": 300,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Wattage": "11 Watts",
+      "Base": "4-Pin Single Ended Base",
+      "Wavelength": "254 nm Germicidal Peak",
+      "Effective Life": "9000 Operating Hours"
+    },
+    "rating": 4.7,
+    "reviewCount": 215,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-027",
+    "name": "Heavy-Duty Stainless Steel 304 UV Barrel / Chamber",
+    "slug": "heavy-duty-stainless-steel-304-uv-barrel-chamber",
+    "category": "minerals_uv",
+    "categoryLabel": "Minerals & UV Sterilization",
+    "brand": "SterilArmor",
+    "description": "Mirror-polished corrosion-resistant SS 304 stainless steel chamber housing with quartz glass sleeve and silicone O-rings for 11W UV lamps. Enhances germicidal reflection efficiency.",
+    "retailPrice": 850,
+    "wholesalePrice": 490,
+    "minOrderQuantity": 3,
+    "stockQuantity": 90,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Material": "Grade 304 Stainless Steel",
+      "Ports": "1/4\" Push-In Threaded Inlet & Outlet",
+      "Includes": "Quartz Sleeve + UV Retainer Nuts + Waterproof Caps",
+      "Pressure Rating": "Up to 125 PSI"
+    },
+    "rating": 4.6,
+    "reviewCount": 86,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-028",
+    "name": "High-Efficiency Electronic UV Ballast / Choke 11W",
+    "slug": "high-efficiency-electronic-uv-ballast-choke-11w",
+    "category": "minerals_uv",
+    "categoryLabel": "Minerals & UV Sterilization",
+    "brand": "PowerPulse",
+    "description": "Solid state electronic ballast driver with lamp failure alarm and LED indicator. Supplies stable frequency to 11W UV tube without flickering.",
+    "retailPrice": 380,
+    "wholesalePrice": 190,
+    "minOrderQuantity": 5,
+    "stockQuantity": 220,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Input": "230V AC, 50Hz",
+      "Output": "Specially calibrated for 11W 4-Pin UV Lamps",
+      "Features": "Audible Buzzer Alert upon UV Lamp Failure",
+      "Wiring": "Pre-wired 4-pin waterproof socket"
+    },
+    "rating": 4.5,
+    "reviewCount": 134,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-029",
+    "name": "Automatic 24V Solenoid Valve (SV) for RO Cutoff",
+    "slug": "automatic-24v-solenoid-valve-ro-cutoff",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "FlowTech",
+    "description": "Normally-closed 24V DC solenoid valve to stop raw water feed instantly when the storage tank is full or power is interrupted, preventing water hammer and membrane flooding.",
+    "retailPrice": 350,
+    "wholesalePrice": 180,
+    "minOrderQuantity": 5,
+    "stockQuantity": 310,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Voltage": "24V DC Normally Closed",
+      "Ports": "1/4\" Push Quick Connect",
+      "Pressure Range": "0.02 - 0.8 MPa (3 to 116 PSI)",
+      "Coil Material": "100% Copper with Epoxy Encapsulation"
+    },
+    "rating": 4.8,
+    "reviewCount": 240,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-030",
+    "name": "Self-Cleaning Auto-Flush Solenoid Valve 18 Sec (24V)",
+    "slug": "self-cleaning-auto-flush-solenoid-valve-18-sec-24v",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "FlowTech",
+    "description": "Intelligent combined flow restrictor and bypass solenoid that automatically flushes the RO membrane for 18 seconds every time the booster pump starts, tripling membrane service lifespan.",
+    "retailPrice": 620,
+    "wholesalePrice": 340,
+    "minOrderQuantity": 4,
+    "stockQuantity": 180,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Function": "18-Second High Velocity Flush on Startup",
+      "Integrated FR": "FR-450 Flow Restrictor built-in",
+      "Voltage": "24V DC",
+      "Fitting": "1/4\" Quick Connect"
+    },
+    "rating": 4.7,
+    "reviewCount": 112,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-031",
+    "name": "Food-Grade LLDPE 1/4\" Flexible Water Tubing (100 Meter Roll)",
+    "slug": "food-grade-lldpe-quarter-inch-tubing-100m-roll",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "AquaPiping",
+    "description": "NSF-certified virgin linear low-density polyethylene 1/4 inch flexible pipe roll for domestic water purifiers and dispensers. UV resistant, burst proof up to 230 PSI at 20°C.",
+    "retailPrice": 1299,
+    "wholesalePrice": 720,
+    "minOrderQuantity": 2,
+    "stockQuantity": 85,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Outer Diameter": "1/4 Inch (6.35 mm)",
+      "Inner Diameter": "4.2 mm",
+      "Length": "100 Meters Full Roll",
+      "Color": "Clean Semi-Translucent White",
+      "Certification": "FDA & NSF 58 Compliant"
+    },
+    "rating": 4.8,
+    "reviewCount": 160,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-032",
+    "name": "Push-Fit Quick-Connect Elbow Connectors 1/4\" (Pack of 20)",
+    "slug": "push-fit-quick-connect-elbow-connectors-pack-20",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "AquaPiping",
+    "description": "Pack of 20 leak-free 1/4\" equal elbow quick-connectors with food-grade POM construction, stainless steel gripping teeth, and dual EPDM O-ring sealing.",
+    "retailPrice": 399,
+    "wholesalePrice": 190,
+    "minOrderQuantity": 5,
+    "stockQuantity": 400,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Size": "1/4\" Tube x 1/4\" Tube Equal Elbow",
+      "Quantity": "20 Pieces per Pack",
+      "Sealing": "Dual O-Ring Zero Leak Technology",
+      "Lock Clips": "Includes 20 Blue Safety Locking Clips"
+    },
+    "rating": 4.9,
+    "reviewCount": 310,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-033",
+    "name": "High-Pressure Switch (HPS) for Storage Tank Cutoff",
+    "slug": "high-pressure-switch-hps-storage-tank-cutoff",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "FlowTech",
+    "description": "Precision high pressure sensing switch that disconnects power to booster pump when downstream pressure rises to 35-40 PSI as the storage reservoir fills.",
+    "retailPrice": 220,
+    "wholesalePrice": 110,
+    "minOrderQuantity": 5,
+    "stockQuantity": 275,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Cut-in Pressure": "25 PSI",
+      "Cut-off Pressure": "38 PSI (Adjustable)",
+      "Contact Rating": "5A 250V AC",
+      "Port": "1/4\" Push-fit Quick Connect"
+    },
+    "rating": 4.6,
+    "reviewCount": 140,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-034",
+    "name": "Low-Pressure Switch (LPS) for Dry Run Pump Protection",
+    "slug": "low-pressure-switch-lps-dry-run-pump-protection",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "FlowTech",
+    "description": "Essential dry-run safety switch that cuts electric supply to booster pump when inlet municipal or tank water pressure drops below 5 PSI, preventing pump motor burnout.",
+    "retailPrice": 199,
+    "wholesalePrice": 95,
+    "minOrderQuantity": 5,
+    "stockQuantity": 290,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Trigger Threshold": "5 PSI Open Circuit",
+      "Reset Threshold": "8 PSI",
+      "Mounting": "Inline 1/4\" Push-in",
+      "Application": "Dry-run protection for all 24V/36V booster pumps"
+    },
+    "rating": 4.7,
+    "reviewCount": 165,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-035",
+    "name": "Stainless Steel Manual TDS Modulator / Adjuster Valve",
+    "slug": "stainless-steel-manual-tds-modulator-adjuster-valve",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "PureStream",
+    "description": "Micro-metering brass/SS needle valve allowing fine blending of mineralized UF-filtered water with pure RO permeate, enabling exact customer TDS customization.",
+    "retailPrice": 320,
+    "wholesalePrice": 160,
+    "minOrderQuantity": 5,
+    "stockQuantity": 195,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Mechanism": "Micrometer Needle Valve",
+      "Body": "Nickel Plated Brass with SS Needle",
+      "Ports": "1/4\" Male/Female Push Connector Compatible",
+      "Locking Nut": "Vibration resistant lock ring"
+    },
+    "rating": 4.5,
+    "reviewCount": 98,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-036",
+    "name": "Flow Restrictor FR-450 / FR-550 (Pack of 5)",
+    "slug": "flow-restrictor-fr-450-fr-550-pack-5",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "AquaPiping",
+    "description": "Pack of 5 calibrated flow restrictors maintaining optimal back-pressure inside membrane housing to enforce proper RO permeate recovery without causing premature fouling.",
+    "retailPrice": 249,
+    "wholesalePrice": 110,
+    "minOrderQuantity": 5,
+    "stockQuantity": 350,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Flow Rating": "450 cc/min (Also available in 550 cc/min)",
+      "Ideal Match": "75 GPD & 100 GPD membranes",
+      "Connection": "1/4\" Push-fit Inlet and Outlet",
+      "Pack Size": "5 Units"
+    },
+    "rating": 4.8,
+    "reviewCount": 210,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-037",
+    "name": "Heavy-Duty 10\" Pre-Filter Housing Bowl with Spanner & Clamp",
+    "slug": "heavy-duty-10-inch-pre-filter-housing-bowl-spanner",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "ArmorBowl",
+    "description": "Thick-walled food grade polypropylene pre-filter bowl casing with brass threaded female inlet/outlet inserts, leak-proof double O-ring groove, wall mounting bracket, and tightening spanner wrench.",
+    "retailPrice": 750,
+    "wholesalePrice": 410,
+    "minOrderQuantity": 3,
+    "stockQuantity": 160,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Cartridge Size": "Standard 10\" x 2.5\"",
+      "Thread Size": "3/8\" or 1/4\" Heavy Brass Inserts",
+      "Burst Pressure": "Up to 300 PSI Tested",
+      "Included Accessories": "SS Wall Clamp, 4 Screws, Housing Wrench Spanner"
+    },
+    "rating": 4.7,
+    "reviewCount": 185,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-038",
+    "name": "Precision Digital Pocket TDS & Temperature Meter (0-9990 ppm)",
+    "slug": "precision-digital-pocket-tds-temperature-meter",
+    "category": "water_testing",
+    "categoryLabel": "Testing Kits & Meters",
+    "brand": "AquaTest",
+    "description": "High-accuracy handheld digital meter with titanium alloy probe, instant automatic temperature compensation (ATC), and backlit LCD display for quick verification of dissolved solids and membrane rejection efficiency.",
+    "retailPrice": 499,
+    "wholesalePrice": 240,
+    "minOrderQuantity": 3,
+    "stockQuantity": 310,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Measurement Range": "0 - 9990 ppm (Parts Per Million)",
+      "Accuracy": "± 2% Full Scale",
+      "Temperature Range": "0.1 - 80.0°C / 32.0 - 176.0°F",
+      "Battery": "2 x 1.5V Button Cells Included",
+      "Features": "Data Hold button & Auto-Off after 5 minutes"
+    },
+    "rating": 4.9,
+    "reviewCount": 390,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-039",
+    "name": "Electrolytic Water Purity Tester Demonstration Rods (220V)",
+    "slug": "electrolytic-water-purity-tester-demonstration-rods",
+    "category": "water_testing",
+    "categoryLabel": "Testing Kits & Meters",
+    "brand": "AquaTest",
+    "description": "Dual iron and aluminum electrode electrolysis testing device for dealers and service engineers to visually demonstrate precipitants and mineral breakdown between raw tap water and pure RO water.",
+    "retailPrice": 399,
+    "wholesalePrice": 180,
+    "minOrderQuantity": 4,
+    "stockQuantity": 200,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Operating Voltage": "220V AC, 50Hz",
+      "Electrodes": "2 x Pure Iron Rods + 2 x Pure Aluminum Rods",
+      "Test Duration": "30 to 60 Seconds per test",
+      "Use Case": "Dealer field demonstration and customer education"
+    },
+    "rating": 4.6,
+    "reviewCount": 115,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-040",
+    "name": "Wide-Range Liquid pH Indicator Test Kit with Color Chart",
+    "slug": "wide-range-liquid-ph-indicator-test-kit",
+    "category": "water_testing",
+    "categoryLabel": "Testing Kits & Meters",
+    "brand": "BioTest",
+    "description": "Specialized reagent liquid test kit with dropper bottle and calibrated color comparison chart from pH 4.0 (acidic red) to pH 10.0 (alkaline purple) to verify alkaline cartridge performance.",
+    "retailPrice": 299,
+    "wholesalePrice": 130,
+    "minOrderQuantity": 5,
+    "stockQuantity": 240,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Volume": "30 ml High Sensitivity Reagent",
+      "Tests Count": "Over 150 Tests Per Bottle",
+      "Color Scale": "pH 4.0 to 10.0 Gradient Card Included",
+      "Reaction Time": "Instant Color Transformation"
+    },
+    "rating": 4.7,
+    "reviewCount": 142,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-041",
+    "name": "Total Hardness Titration Drop Test Kit (CaCO3)",
+    "slug": "total-hardness-titration-drop-test-kit",
+    "category": "water_testing",
+    "categoryLabel": "Testing Kits & Meters",
+    "brand": "BioTest",
+    "description": "Standard chemical titration kit for determining raw water calcium and magnesium hardness levels in ppm or grains per gallon, helping specify water softeners and anti-scalant dosing.",
+    "retailPrice": 699,
+    "wholesalePrice": 380,
+    "minOrderQuantity": 3,
+    "stockQuantity": 90,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Method": "EDTA Titrimetric Drop Count",
+      "Resolution": "1 Drop = 10 ppm CaCO3",
+      "Kit Contents": "Buffer Solution, Hardness Indicator, Titrating Reagent, Vial",
+      "Capacity": "100 Complete Tests"
+    },
+    "rating": 4.8,
+    "reviewCount": 58,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-042",
+    "name": "Luxury Single-Lever Stainless Steel RO Goose-Neck Faucet",
+    "slug": "luxury-single-lever-stainless-steel-ro-faucet",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "PureStream",
+    "description": "Solid lead-free SS 304 food-grade drinking faucet with smooth 360-degree swivel spout, ceramic disc cartridge rated for 500,000 cycles, and 1/4\" quick connection stem.",
+    "retailPrice": 1199,
+    "wholesalePrice": 650,
+    "minOrderQuantity": 2,
+    "stockQuantity": 130,
+    "thumbnail": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Material": "SUS 304 Stainless Steel Brushed Finish",
+      "Spout Rotation": "360 Degree Smooth Swivel",
+      "Valve Core": "Ceramic Disc Valve Core",
+      "Installation Hole": "Standard 1/2\" to 1\" Sink Hole"
+    },
+    "rating": 4.8,
+    "reviewCount": 97,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-043",
+    "name": "HydroPneumatic Steel Pressure Tank 3.2 Gallon for Under-Sink RO",
+    "slug": "hydropneumatic-steel-pressure-tank-3-2-gallon",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "TankPro",
+    "description": "NSF-listed 3.2 gallon pressurized metal storage tank with food-grade butyl bladder and virgin polypropylene liner, ensuring pressurized flow to under-sink drinking faucets.",
+    "retailPrice": 2499,
+    "wholesalePrice": 1490,
+    "minOrderQuantity": 2,
+    "stockQuantity": 60,
+    "thumbnail": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Total Volume": "3.2 Gallons (12 Liters)",
+      "Pure Water Hold": "Approx 8.5 Liters at 50 PSI",
+      "Internal Bladder": "High-Grade Butyl Rubber Diaphragm",
+      "Pre-Charge Pressure": "7 PSI Schrader Valve"
+    },
+    "rating": 4.7,
+    "reviewCount": 74,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-044",
+    "name": "Electronic Water Tank Level Magnetic Float Switch",
+    "slug": "electronic-water-tank-level-magnetic-float-switch",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "FlowTech",
+    "description": "Waterproof food-grade micro float sensor switch that triggers the electrical control circuit to switch off purification when the clean water tank reaches peak capacity.",
+    "retailPrice": 180,
+    "wholesalePrice": 85,
+    "minOrderQuantity": 5,
+    "stockQuantity": 320,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Contact Rating": "10W Reed Switch",
+      "Material": "Polypropylene PP Body",
+      "Mounting Angle": "Horizontal Side Mount",
+      "Lead Wires": "50 cm Double Insulated Copper Leads"
+    },
+    "rating": 4.6,
+    "reviewCount": 110,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-045",
+    "name": "Complete Annual Maintenance Filter Kit (Sediment + Pre-Carbon + Post-Carbon)",
+    "slug": "complete-annual-maintenance-filter-kit",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "CarboPure",
+    "description": "All-in-one comprehensive annual filter renewal kit containing 1 Spun Polypropylene sediment candle, 1 inline sediment filter, 1 inline granular activated carbon filter, and 1 silver post-carbon cartridge with fittings.",
+    "retailPrice": 1499,
+    "wholesalePrice": 790,
+    "minOrderQuantity": 3,
+    "stockQuantity": 210,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Kit Inclusions": "1 Spun Candle + 1 Inline Sed + 1 Inline GAC + 1 Post Carbon",
+      "Bonus Items": "6 Quick Connect Elbows + 2 Meter Tubing + Teflon Tape",
+      "Compatibility": "Universal 99% Domestic RO Purifier Brands",
+      "Recommended Replacement": "Once every 12 months"
+    },
+    "rating": 4.9,
+    "reviewCount": 510,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-046",
+    "name": "Standard RO Membrane Housing Vessel 1812 with O-Rings",
+    "slug": "standard-ro-membrane-housing-vessel-1812",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "ArmorBowl",
+    "description": "Reinforced thick polypropylene pressure vessel engineered to hold standard 50 GPD, 75 GPD, 80 GPD, and 100 GPD 1812 residential RO membrane elements.",
+    "retailPrice": 420,
+    "wholesalePrice": 210,
+    "minOrderQuantity": 5,
+    "stockQuantity": 190,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Compatible Size": "1812 / 2012 Standard Membrane",
+      "Inlet / Permeate / Brine Ports": "1/8\" Threaded Female Ports",
+      "Sealing": "Double EPDM Sealing Gaskets in Cap",
+      "Test Pressure": "150 PSI"
+    },
+    "rating": 4.7,
+    "reviewCount": 130,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-047",
+    "name": "Aquaflow SuperShield Zero-Water-Wastage RO Purifier 10L",
+    "slug": "aquaflow-supershield-zero-water-wastage-ro-10l",
+    "category": "purifier_domestic",
+    "categoryLabel": "Domestic RO Purifiers",
+    "brand": "Aquaflow",
+    "description": "Eco-friendly zero water wastage purifier that routes reject water back to the household overhead tank using an auxiliary recirculation pump, achieving 100% water recovery.",
+    "retailPrice": 18499,
+    "wholesalePrice": 12200,
+    "minOrderQuantity": 1,
+    "stockQuantity": 20,
+    "thumbnail": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Water Recovery": "100% Zero Wastage via Overhead Recirculation",
+      "Filtration Stages": "RO + UV + UF + Mineralizer",
+      "Tank Capacity": "10 Liters Storage",
+      "Display": "Digital Screen with Filter Life Indicator"
+    },
+    "rating": 4.8,
+    "reviewCount": 89,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-048",
+    "name": "Industrial 4040 FRP RO Membrane Pressure Vessel (300 PSI)",
+    "slug": "industrial-4040-frp-ro-membrane-pressure-vessel-300psi",
+    "category": "purifier_commercial",
+    "categoryLabel": "Commercial RO Systems",
+    "brand": "HydroMax",
+    "description": "Fiberglass reinforced plastic (FRP) high pressure membrane housing for industrial 4\" x 40\" reverse osmosis membranes. End entry port with heavy-duty retaining rings.",
+    "retailPrice": 5800,
+    "wholesalePrice": 3900,
+    "minOrderQuantity": 1,
+    "stockQuantity": 25,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Material": "Epoxy Resin Filament Wound Fiberglass",
+      "Design Pressure": "300 PSI Working Rating",
+      "Dimensions": "Fits 1 Element of 4040 Membrane",
+      "Feed / Concentrate Ports": "3/4\" NPT Female Threaded"
+    },
+    "rating": 4.9,
+    "reviewCount": 31,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-049",
+    "name": "Automatic Inline Anti-Scalant Dosing Cartridge 10\"",
+    "slug": "automatic-inline-anti-scalant-dosing-cartridge-10-inch",
+    "category": "filter_cartridges",
+    "categoryLabel": "Filter Cartridges",
+    "brand": "ScaleGuard",
+    "description": "Polyphosphate crystal (siliphos) dosing cartridge that sequesters high hardness and iron minerals in raw water, preventing irreversible calcium scale precipitation on RO membranes.",
+    "retailPrice": 599,
+    "wholesalePrice": 310,
+    "minOrderQuantity": 4,
+    "stockQuantity": 140,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Active Compound": "Slow-Dissolving Food-Grade Sodium Hexametaphosphate",
+      "Protection": "Inhibits scale up to 800 ppm CaCO3 hardness",
+      "Lifespan": "6 to 8 Months",
+      "Fitting": "10\" Standard Bowl Fit"
+    },
+    "rating": 4.6,
+    "reviewCount": 77,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-050",
+    "name": "Heavy Duty Brass Feed Water Adapter Valve (1/2\" to 1/4\" RO Pipe)",
+    "slug": "heavy-duty-brass-feed-water-adapter-valve",
+    "category": "spares_fittings",
+    "categoryLabel": "Spare Parts & Fittings",
+    "brand": "AquaPiping",
+    "description": "Solid forged chrome-plated brass angle diverter valve for tapping raw water supply from household 1/2\" sink angle valve directly into 1/4\" water purifier line with shut-off lever.",
+    "retailPrice": 280,
+    "wholesalePrice": 140,
+    "minOrderQuantity": 5,
+    "stockQuantity": 350,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Material": "Solid Forged Brass with Chrome Plating",
+      "Main Threads": "1/2\" BSP Male x 1/2\" BSP Female",
+      "Branch Outlet": "1/4\" Tube Quick Connect with Ball Valve Lever",
+      "Pressure Rating": "200 PSI"
+    },
+    "rating": 4.8,
+    "reviewCount": 265,
+    "featured": false,
+    "isActive": true
+  },
+  {
+    "id": "prod-051",
+    "name": "HydroMax 250 LPH Institutional RO Water Purification Plant",
+    "slug": "hydromax-250-lph-institutional-ro-plant",
+    "category": "purifier_commercial",
+    "categoryLabel": "Commercial RO Systems",
+    "brand": "HydroMax",
+    "description": "High-volume institutional reverse osmosis plant with 1 HP CRI vertical multistage pump, two 4040 industrial membranes, sand & carbon media filter vessels, and comprehensive digital control panel.",
+    "retailPrice": 115000,
+    "wholesalePrice": 82000,
+    "minOrderQuantity": 1,
+    "stockQuantity": 5,
+    "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Permeate Flow": "250 Liters per Hour",
+      "Membranes": "2 x Industrial 4040 High Rejection Elements",
+      "Pre-treatment": "FRP Dual Media Filter + Activated Carbon Vessel",
+      "Instrumentation": "Inlet/Outlet Pressure Gauges + Permeate Rotameter",
+      "Target Environment": "Hospitals, Educational Campuses, Manufacturing Units"
+    },
+    "rating": 4.9,
+    "reviewCount": 14,
+    "featured": true,
+    "isActive": true
+  },
+  {
+    "id": "prod-052",
+    "name": "Touchless Sensor Hot, Cold & Ambient RO Dispenser 10L",
+    "slug": "touchless-sensor-hot-cold-ambient-ro-dispenser-10l",
+    "category": "dispensers",
+    "categoryLabel": "Water Dispensers",
+    "brand": "ArcticFlow",
+    "description": "Zero-touch infrared motion sensor water dispenser offering germ-free dispensing of boiling hot, chilled, and ambient pure RO water for modern corporate offices and clinics.",
+    "retailPrice": 28999,
+    "wholesalePrice": 19800,
+    "minOrderQuantity": 1,
+    "stockQuantity": 14,
+    "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "specifications": {
+      "Dispensing Method": "Triple Infrared Proximity Sensor (Touchless)",
+      "Tank Capacity": "10 Liters Total (Cold: 3L, Hot: 2L, Ambient: 5L)",
+      "Refrigerant": "Eco-friendly R134a Compressor",
+      "Purification": "Built-in 5-Stage In-Cabinet RO System"
+    },
+    "rating": 4.9,
+    "reviewCount": 38,
+    "featured": true,
+    "isActive": true
+  }
+]

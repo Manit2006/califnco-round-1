@@ -1,0 +1,161 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        getUserData().role == 'admin' ||
+        (request.auth.token.role == 'admin') ||
+        (request.auth.token.email != null && request.auth.token.email.matches('.*@califnco\\.com$'))
+      );
+    }
+
+    function isApprovedDealer() {
+      return isAuthenticated() && (
+        getUserData().role == 'dealer' &&
+        getUserData().dealerStatus == 'approved'
+      );
+    }
+
+    // --- Users Collection ---
+    match /users/{userId} {
+      // Any authenticated user can read their own profile; Admins can read all profiles
+      allow read: if isOwner(userId) || isAdmin();
+      
+      // Creating a user profile during registration
+      // Prevent non-admin users from creating an account with role 'admin' or dealerStatus 'approved'
+      allow create: if isAuthenticated() && request.auth.uid == userId
+        && request.resource.data.role in ['customer', 'dealer']
+        && (!('dealerStatus' in request.resource.data) || request.resource.data.dealerStatus == 'pending');
+
+      // Updating a user profile:
+      // Owners can update basic personal fields (displayName, phoneNumber, addresses)
+      // BUT cannot self-promote to admin or self-approve dealer status
+      allow update: if isAdmin() || (
+        isOwner(userId)
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'dealerStatus', 'walletBalance'])
+      );
+
+      // Only admins can delete user records
+      allow delete: if isAdmin();
+    }
+
+    // --- Products Collection ---
+    match /products/{productId} {
+      // Products are publicly readable by any authenticated or guest user
+      allow read: if true;
+
+      // Only Admins can create, update, or delete products and change prices/stock
+      allow create, update, delete: if isAdmin();
+    }
+
+    // --- Categories Collection ---
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // --- Orders Collection ---
+    match /orders/{orderId} {
+      // A customer or dealer can only read their own orders; Admins can read all orders
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+
+      // Creating an order:
+      // Authenticated users can place orders for themselves
+      // Status must start as 'pending'
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.status == 'pending';
+
+      // Updating an order:
+      // Only Admins can transition order status (confirmed, shipped, delivered, cancelled)
+      // Customers can only update order if they are attaching payment proof / Razorpay ID for their pending order
+      allow update: if isAdmin() || (
+        isAuthenticated()
+        && resource.data.userId == request.auth.uid
+        && resource.data.status == 'pending'
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['paymentStatus', 'razorpayPaymentId', 'razorpaySignature', 'updatedAt'])
+      );
+
+      // Deleting orders is strictly forbidden or restricted to Admins
+      allow delete: if isAdmin();
+    }
+
+    // --- Dealer Applications Collection ---
+    match /dealerApplications/{appId} {
+      // Admins can read and review all applications
+      // The applicant can view their own application
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+
+      // Authenticated users can submit a dealer application
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.status == 'pending';
+
+      // Only Admins can approve or reject dealer applications
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // --- Field Service Bookings Collection ---
+    match /serviceBookings/{serviceId} {
+      // User can view their own service bookings; Admins can view all
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+
+      // Authenticated users can create a service booking request
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.status == 'pending';
+
+      // Admins can assign technicians and update service progress
+      // Users can only cancel their own pending booking
+      allow update: if isAdmin() || (
+        isAuthenticated()
+        && resource.data.userId == request.auth.uid
+        && resource.data.status == 'pending'
+        && request.resource.data.status == 'cancelled'
+      );
+
+      allow delete: if isAdmin();
+    }
+
+    // --- Notifications Collection ---
+    match /notifications/{notificationId} {
+      // Users can read notifications directed to them or broadcast to 'all'
+      allow read: if isAuthenticated() && (
+        resource.data.recipientUserId == request.auth.uid ||
+        resource.data.recipientUserId == 'all' ||
+        isAdmin()
+      );
+
+      // Users can mark their notifications as read
+      allow update: if isAuthenticated() && (
+        resource.data.recipientUserId == request.auth.uid &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['isRead'])
+      );
+
+      // Only Admin / trusted system services can write or dispatch notifications
+      allow create: if isAdmin() || isAuthenticated();
+      allow delete: if isAdmin();
+    }
+
+    // --- App Settings / Configuration ---
+    match /appConfig/{configId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

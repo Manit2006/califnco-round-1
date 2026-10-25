@@ -1,0 +1,72 @@
+[
+  {
+    "id": "all",
+    "slug": "all",
+    "name": "All Products",
+    "icon": "layers",
+    "description": "Explore the complete water purification catalog"
+  },
+  {
+    "id": "purifier_domestic",
+    "slug": "purifier_domestic",
+    "name": "Domestic RO Purifiers",
+    "icon": "shield-check",
+    "description": "Multi-stage RO, UV, UF & Copper purifiers for homes and apartments"
+  },
+  {
+    "id": "purifier_commercial",
+    "slug": "purifier_commercial",
+    "name": "Commercial RO Systems",
+    "icon": "building-2",
+    "description": "Heavy-duty 25 LPH to 250 LPH plants for offices, cafes, and institutions"
+  },
+  {
+    "id": "dispensers",
+    "slug": "dispensers",
+    "name": "Water Dispensers",
+    "icon": "thermometer",
+    "description": "Floor-standing and tabletop hot, cold & ambient dispensers"
+  },
+  {
+    "id": "booster_pumps",
+    "slug": "booster_pumps",
+    "name": "Booster & Diaphragm Pumps",
+    "icon": "zap",
+    "description": "24V and 36V high-pressure pumps and SMPS adapters"
+  },
+  {
+    "id": "ro_membranes",
+    "slug": "ro_membranes",
+    "name": "RO Membranes",
+    "icon": "disc",
+    "description": "75 GPD, 100 GPD, and 300 GPD high-rejection TFC membranes"
+  },
+  {
+    "id": "filter_cartridges",
+    "slug": "filter_cartridges",
+    "name": "Filter Cartridges",
+    "icon": "filter",
+    "description": "Sediment spun candles, carbon blocks, GAC, and UF filters"
+  },
+  {
+    "id": "minerals_uv",
+    "slug": "minerals_uv",
+    "name": "Minerals & UV Sterilizers",
+    "icon": "sun",
+    "description": "Alkaline bio-cartridges, copper infusion filters, and UV-C lamps"
+  },
+  {
+    "id": "spares_fittings",
+    "slug": "spares_fittings",
+    "name": "Spare Parts & Fittings",
+    "icon": "wrench",
+    "description": "Solenoid valves, tubing, quick elbows, float switches, and bowls"
+  },
+  {
+    "id": "water_testing",
+    "slug": "water_testing",
+    "name": "Testing Kits & Meters",
+    "icon": "gauge",
+    "description": "Digital TDS meters, pH drops, hardness titration, and electrolyzers"
+  }
+]

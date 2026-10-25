@@ -1,0 +1,102 @@
+{
+  "name": "Califnco - Daily WhatsApp Status Broadcast (WAHA)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 24,
+              "triggerAtHour": 10,
+              "triggerAtMinute": 15
+            }
+          ]
+        }
+      },
+      "id": "waha-cron-trigger",
+      "name": "Daily at 10:15 AM IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "sheetId": "={{ $env.GOOGLE_SHEETS_SPREADSHEET_ID }}",
+        "range": "Products_Catalog!A:K",
+        "options": {
+          "filter": {
+            "conditions": [
+              {
+                "field": "Status",
+                "operation": "equal",
+                "value": "PUBLISHED"
+              }
+            ]
+          },
+          "limit": 1
+        }
+      },
+      "id": "read-today-published-item",
+      "name": "Get Today's Featured Item",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.WAHA_BASE_URL || 'http://localhost:3000' }}/api/{{ $env.WAHA_SESSION || 'default' }}/status/image",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Api-Key",
+              "value": "={{ $env.WAHA_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"file\": {\n    \"url\": \"https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=1080&q=80\"\n  },\n  \"caption\": \"*Featured Water Purifier of the Day*\\n\\n💧 *{{ $json.Product_Name }}*\\n💰 Special Price: *₹{{ $json.Retail_Price_INR }}* (Wholesale available for dealers)\\n\\n✅ {{ $json.Key_Features }}\\n\\nOrder directly from the Califnco Android App or reply to this status to book certified installation!\"\n}"
+      },
+      "id": "post-waha-status",
+      "name": "Publish to WhatsApp Status",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [720, 300]
+    }
+  ],
+  "connections": {
+    "Daily at 10:15 AM IST": {
+      "main": [
+        [
+          {
+            "node": "Get Today's Featured Item",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Today's Featured Item": {
+      "main": [
+        [
+          {
+            "node": "Publish to WhatsApp Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
